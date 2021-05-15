@@ -47,11 +47,34 @@
             <header class="jumbotron my-4">
                 <h1 class="display-3">Chasing Trout</h1>
                 <p class="lead">A beginner's guide to tying your own fly patterns</p>
+               <div class="buttonContainer">
+                <div class="center">
+                <button>Find Events Near You!</button>
+                </div>
+                </div>
             </header>
             <!-- Page Features-->
                 <div>
                     <img src="assets/Background.jpg">
                 </div>
+                <form action="action_page.php">
+                <div class="formContainer">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Weekly Blog Posts and Virtual Events!</p>
+                </div>
+
+                    <div class="inputContainer" style="background-color:white">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+                        </label>
+                    </div>
+
+                <div class="submitContainer">
+                    <input type="submit" value="Subscribe">
+                </div>
+                </form>
             
         </div>
         <!-- Footer-->
